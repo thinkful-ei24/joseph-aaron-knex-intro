@@ -2,7 +2,7 @@
 
 exports.PORT = process.env.PORT || 8080; 
 
-const DATABASE_URL = process.env.DATABASE_URL || 'postgresql://localhost/dev-restaurants-app';
+const DATABASE_URL = process.env.DATABASE_URL || 'postgresql://dev@localhost/dev-restaurants-app';
 
 exports.DATABASE = {
   client: 'pg',
